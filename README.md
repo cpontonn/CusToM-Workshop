@@ -1,2 +1,2 @@
 # CusToM-Workshop
-Examples and presentations used during the workshop
+Examples and presentations used during a workshop dealing with the CusToM library in Matlab 
