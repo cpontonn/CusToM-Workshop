@@ -112,3 +112,33 @@ xlim([0 Nb_frames])
 % selected angles of the lowerlimb. A 4th order zerolag
 % butterworth filter was applied on these angles with a cutoff frequency of
 % 5 Hz as it is specify in the Analysis parameters.
+
+
+%% What about the quality of the model ?
+% Shank distance
+% Experimental distance
+% loading experimental markers of the shank
+real_markers = C3dProcessedData('ChgtDirection04',{'RKNI';'RKNE';'RANI';'RANE'});
+% computing mean distance between knee markers and ankle markers
+Xp_distance = norm( mean( (real_markers(3).position_c3d + real_markers(4).position_c3d)/2 ...
+    - (real_markers(1).position_c3d + real_markers(2).position_c3d)/2,1 ));
+% Model distance
+% loading the model
+load('BiomechanicalModel.mat')
+% get the solid of reference
+Solid = 'RAnkle_J1';
+[~,num_s]=intersect(Solid_list,Solid,'stable');
+
+% Position of the Ankle Joint in the Shank reference frame
+Model_distance = norm(BiomechanicalModel.OsteoArticularModel(num_s).b);
+
+%Plot
+figure('Name','Shank length')
+bar([Xp_distance,Model_distance])
+xticklabels({'Mean Marker length','Model length'})
+title('Shank length');
+
+% Conclusion
+% Distance from the anthropometric model is not corresponding to
+% experimental length...
+% We need a more robust calibration of the geometrical model.
