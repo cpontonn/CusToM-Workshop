@@ -44,7 +44,7 @@ This Workshop is provided under: [![License](https://img.shields.io/badge/Licens
 
 # Illustrations
 
-All the Illustrations were made with GIBBON. You can find the reference below.
+All the Illustrations were made with [GIBBON](https://github.com/gibbonCode/GIBBON). You can find the reference below.
 
 Moerman, (2018). GIBBON: The Geometry and Image-Based Bioengineering add-On. Journal of Open Source Software, 3(22), 506, https://doi.org/10.21105/joss.00506
  
