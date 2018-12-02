@@ -1,7 +1,8 @@
 % Post Processing "XSENS_VICON" example
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This example aimed at getting the joint angles of the hip, knee and ankle
+% This example aims at getting the joint angles of the hip, knee and ankle
 % flexions computed with XSENS and VICON data during mantutention tasks
+% Two strategies are compared in 2 different captures 
 %________________________________________________________
 %
 % Licence
@@ -16,17 +17,18 @@ clear all;
 close all;
 clc;
 
-
+%% 1 . 
 %% Angles of interest
 Solids = {'RHip_J1';'RShank';'RAnkle_J1';'LHip_J1';'LShank';'LAnkle_J1'};
 
 %% Name of the trial treated
-filename='Manutention02';
+filename='Manutention01';
 
 %% Sample rates
 dt_VICON=1/200;
 dt_XSENS=1/240;
 %% VICON DATA
+
 cd('VICON_DATA');
 
 % Loading the Biomechanicalmodel file
