@@ -25,7 +25,7 @@ cd('SideStep_Muscle_Opti_with_Predicted_Forces\');
 load('AnalysisParameters.mat')
 
 % Get the solid names on which the forces are applied
-Solids = AnalysisParameters.ExternalForces.Options;
+Solids = {'RFoot','LFoot'};
 
 % Loading the Biomechanicalmodel file
 load('BiomechanicalModel.mat')
@@ -97,8 +97,8 @@ for ii=4:6
     title(['Moment applied on Feets on the ' Directions{ii-3} '-direction'])
 end
 
-legend('Predicted on Left Foot','Experimental on Left Foot',...
-    'Predicted on Right Foot','Experimental on Right Foot')
+legend('Predicted on Right Foot','Experimental on Right Foot',...
+    'Predicted on Left Foot','Experimental on Left Foot')
 
 % On the graph, we can see that the predicted results are comparable to the
 % experimental forces measured.
