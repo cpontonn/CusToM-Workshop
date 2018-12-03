@@ -53,7 +53,7 @@ clear MuscleForcesComputationResults
 
 %% Optimization Results with experimental forces
 cd .. 
-cd(fullfile('..\2_SideStep_Muscle_Processed','SideStep_Muscle_Opti'));
+cd(fullfile('..\2_SideStep_Muscle','SideStep_Muscle_Opti'));
 
 
 % Name of the trial treated
