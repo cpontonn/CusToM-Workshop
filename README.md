@@ -2,7 +2,7 @@
 Examples and presentations used during the workshop of the 3rd December in Bruz at the M2S lab. The Workshop deals with the [CusToM : a Matlab toolbox for musculoskeletal simulation](https://github.com/anmuller/CusToM) library in Matlab. You can provide your own copy here on the link.
 
 Reference : 
-Muller, A., Pontonnier, C., Puchaud, P., Dumont, G., (2018). CusToM : a Matlab toolbox for musculoskeletal simulation, in review. Journal of Open Source Software.
+Muller, A., Pontonnier, C., Puchaud, P., Dumont, G., (2019). CusToM : a Matlab toolbox for musculoskeletal simulation, in review. Journal of Open Source Software.
 
 **License:** [![License](https://img.shields.io/badge/License-3_Clause_BSD-orange.svg)](https://github.com/anmuller/CusToM/blob/master/LICENSE)
 
