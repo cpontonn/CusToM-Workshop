@@ -1,5 +1,6 @@
 ## CusToM Workshop
-Examples and presentations used during the workshop of the 3rd December in Bruz at the M2S lab. The Workshop deals with the [CusToM : a Matlab toolbox for musculoskeletal simulation](https://github.com/anmuller/CusToM) library in Matlab. You can provide your own copy here on the link.
+Examples and presentations used during the workshop of the 3rd December in Bruz at the M2S lab. The Workshop deals with the 
+[CusToM : a Matlab toolbox for musculoskeletal simulation](https://github.com/anmuller/CusToM) library in Matlab. You can provide your own copy here on the link.
 
 Reference : 
 Muller, A., Pontonnier, C., Puchaud, P., Dumont, G., (2019). CusToM : a Matlab toolbox for musculoskeletal simulation, in review. Journal of Open Source Software.
@@ -9,16 +10,18 @@ Muller, A., Pontonnier, C., Puchaud, P., Dumont, G., (2019). CusToM : a Matlab t
 # Tutorials
 - [Kinematic Tutorial](#Tuto1)
 - [Muscle Forces Tutorial](#Tuto2)
-- [Force Prediction Tutorial](#Tuto3)
-- [XSENS Tutorial](#Tuto4)
+- [XSENS Tutorial](#Tuto3)
 
-Three first examples are based on a side-step motion. It is extracted from a database currently being developed for population characterization.
+The examples are based on a walking motions (normal and altered with an ankle brace) published in a [conference](https://hal.inria.fr/hal-02088913/document)
 
 ### 1. Kinematic Tutorial<a name="Tuto1"></a>
 
-![alt text](https://github.com/cpontonn/CusToM-Workshop/blob/master/2018/Examples_Processed/1_SideStep_Kinematic_Processed/SideStep_Anthropo/Tuto1_Anthropo.gif)
+The first objective of the tutorial is to compare kinematic results from anthropometric calibration and geometrical calibration. 
+At the end of the tutorial, key concepts should be understood: rotation sequences, inverse kinematics, reconstruction error, convergence of geometrical calibration.
 
-The objective of the tutorial is to compare kinematic results from anthropometric calibration and geometrical calibration. At the end of the tutorial, key concepts should be understood: rotation sequences, inverse kinematics, reconstruction error, convergence of geometrical calibration.
+![alt text](https://github.com/cpontonn/CusToM-Workshop/blob/master/2019\Examples_Processed\1_Walking_Kinematic\POC0980A_altered\Marhce.gif)
+
+The second objective of the tutorial is to compare the normal walking gait with the altered gait.
 
 ### 2. Muscle Forces Tutorial<a name="Tuto2"></a>
 
