@@ -22,7 +22,7 @@ The first objective of the tutorial is to compare kinematic results from anthrop
 At the end of the tutorial, key concepts should be understood: rotation sequences, inverse kinematics, reconstruction error, convergence of geometrical calibration.
 
 ![alt text](https://github.com/cpontonn/CusToM-Workshop/blob/master/2019/Examples_Processed/1_Walking/POC0980A_normal_Geometric_Calibration/efw/figure1.gif)
-![alt text](https://github.com/cpontonn/CusToM-Workshop/blob/master/2019/Examples_Processed/1_Walking/POC0980A_altered/efw/Marche.gif)
+![alt text](https://github.com/cpontonn/CusToM-Workshop/blob/master/2019/Examples_Processed/1_Walking/POC0980A_altered/Marche.gif)
 
 The second objective of the tutorial is to compare the kinematic of normal walking gait with altered gait.
 
@@ -36,7 +36,7 @@ At the end of the tutorial, key concepts should be understood: inverse dynamics,
 The objective of the second lesson is to compare the muscle forces of normal walking gait with altered gait.
 At the end of the tutorial, key concepts should be understood: cost functions, muscle mechanics
 
-![alt text](https://github.com/cpontonn/CusToM-Workshop/blob/master/2019/Examples_Processed/1_Walking/POC0980A_altered/efw/Marche_force.gif)
+![alt text](https://github.com/cpontonn/CusToM-Workshop/blob/master/2019/Examples_Processed/1_Walking/POC0980A_altered/Marche_force.gif)
 
 
 ### 4. XSENS Tutorial <a name="Tuto3"></a>
